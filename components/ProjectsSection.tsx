@@ -6,27 +6,27 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "Intel: Data Analysis for Sustainability Project",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+      "Developed SQL queries to investigate problems and make data-driven recommendations to support Intel team decisions for the new data center location. -Tech: SQL, Tableau",
+    image: "/intel.png",
+    github: "https://github.com/seoyeong643",
+    link: "https://docs.google.com/document/d/1rdO3fg9JPfzDVPKcsTu_lKHh7YRVzSzQJMICQzoc7sI/edit?usp=sharing",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    name: "Grammy Awards: Website Audience Analysis",
+    description: "Analysis and visualization of performance metrics for the Grammy Awards website in relation to content and audience strategy. -Tech: Python, Pandas, Numpy, Plotly",
+    image: "/grammys.png",
+    github: "https://github.com/seoyeong643/Grammy-Awards-Website-Audience-Analysis",
+    link: "https://github.com/seoyeong643/Grammy-Awards-Website-Audience-Analysis",
   },
   {
-    name: "Kator Family Photos",
+    name: "Drive Insight Product Website",
     description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+      "Product dashboard website for Drive Insight that effectively integrates vehicle compatibility features using a RESTful API, ensuring users have immediate access to essential information. - Tech: NextJS, React, TypeScript, Tailwind",
+    image: "/driveInsight.png",
+    github: "https://github.com/seoyeong643/drive-insight-website",
+    link: "https://github.com/seoyeong643/drive-insight-website",
   },
 ]
 
