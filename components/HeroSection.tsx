@@ -3,22 +3,41 @@ import React from "react"
 import Image from "next/image"
 import { Link } from "react-scroll/modules"
 import { HiArrowDown } from "react-icons/hi"
+import { useTheme } from "next-themes";
 
 const HeroSection = () => {
+  const { systemTheme, theme } = useTheme();
+  const currentTheme = theme === "system" ? systemTheme : theme;
+
+  const profileImg =
+    currentTheme === "dark" ? "/Profile.gif" : "/ProfileLight.gif";
+
+  const lightImg =
+    currentTheme === "dark" ? "/BulbTilt.gif" : "/BulbTiltLight.gif";
+    
   return (
-    <section id="home">
+    <section id="home" className="relative z-10">
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
         <div className="md:mt-2 md:w-1/2">
           <Image
-            src="/headshot.jpg"
+            src={profileImg}
             alt=""
-            width={325}
-            height={325}
-            className="rounded-full shadow-2xl"
+            width={360}
+            height={360}
+            // className="rounded-full shadow-2xl"
           />
         </div>
         <div className="md:mt-2 md:w-3/5">
-          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m Seoyeong!</h1>
+          <div className="flex items-center">
+            <h1 className="text-5xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m Seoyeong!</h1>
+            <Image
+              src={lightImg}
+              alt=""
+              width={60}
+              height={60}
+              className="inline-block"
+            />
+          </div>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}
             <span className="font-semibold text-teal-600">
