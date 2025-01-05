@@ -40,7 +40,7 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              I am a master's student at Arizona State University for Computer Science, planning to graduate in Dec 2025.
+              I am a master&#39;s student at Arizona State University for Computer Science, planning to graduate in Dec 2025.
             </p>
             <br />
             <p>
