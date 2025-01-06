@@ -16,7 +16,7 @@ const projects = [
   {
     name: "Grammy Awards: Website Audience Analysis",
     description: "Analysis and visualization of performance metrics for the Grammy Awards website in relation to content and audience strategy. -Tech: Python, Pandas, Numpy, Plotly",
-    image: "/grammys.png",
+    image: "/grammy.png",
     github: "https://github.com/seoyeong643/Grammy-Awards-Website-Audience-Analysis",
     link: "https://github.com/seoyeong643/Grammy-Awards-Website-Audience-Analysis",
   },
