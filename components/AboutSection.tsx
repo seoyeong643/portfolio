@@ -40,18 +40,20 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              I am a master&#39;s student at Arizona State University for Computer Science, planning to graduate in Dec 2025. I graduated with my CS bachelor&#39;s degree in 2024.
+              I am currently a master&#39;s student at Arizona State University 
+              for Computer Science, expecting to graduate in Dec 2025. 
+              I earned my bachelor's degree in CS in 2024.
             </p>
             <br />
             <p>
               I have a wide range of hobbies and passions that keep me busy.
-              From reading, dancing, figure skating, photography, to music,
+              From reading and dancing to figure skating, photography, and music,
               I am always seeking new experiences and love to keep myself
               engaged and learning new things.
             </p>
             <br />
             <p>
-              I believe that you should{" "}
+              I believe that one should{" "}
               <span className="font-bold text-teal-500">
                 never stop growing
               </span>{" "}
