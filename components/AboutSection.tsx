@@ -33,10 +33,9 @@ const AboutSection = () => {
             </h1>
             <p>
               Hi, my name is Seoyeong. I also go by Maia. I am a{" "}
-              <span className="font-bold">{"highly ambitious"}</span>,
-              <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer
-              based in Arizona.
+              <span className="font-bold">{"passionate"}</span> and
+              <span className="font-bold">{" motivated"}</span> software engineer
+              living in Arizona! I thrive on challenges and always aim to push my limits.
             </p>
             <br />
             <p>
