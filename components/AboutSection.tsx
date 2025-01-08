@@ -32,7 +32,7 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Seoyeong and I am a{" "}
+              Hi, my name is Seoyeong. I also go by Maia. I am a{" "}
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
               <span className="font-bold">{" driven"}</span> software engineer
@@ -40,7 +40,7 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              I am a master&#39;s student at Arizona State University for Computer Science, planning to graduate in Dec 2025.
+              I am a master&#39;s student at Arizona State University for Computer Science, planning to graduate in Dec 2025. I graduated with my CS bachelor&#39;s degree in 2024.
             </p>
             <br />
             <p>
