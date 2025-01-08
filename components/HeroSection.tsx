@@ -10,20 +10,20 @@ const HeroSection = () => {
   const currentTheme = theme === "system" ? systemTheme : theme;
 
   const profileImg =
-    currentTheme === "dark" ? "/Profile.gif" : "/ProfileLight.gif";
+    currentTheme === "light" ? "/ProfileLight.gif" : "/Profile.gif";
 
   const lightImg =
-    currentTheme === "dark" ? "/BulbTilt.gif" : "/BulbTiltLight.gif";
+    currentTheme === "light" ? "/BulbTiltLight.gif" : "/BulbTilt.gif";
     
   return (
     <section id="home" className="relative z-10">
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
         <div className="md:mt-2 md:w-1/2">
           <Image
-            src={profileImg}
+            src="/MonitorSet.gif"
             alt=""
-            width={360}
-            height={360}
+            width={380}
+            height={380}
             // className="rounded-full shadow-2xl"
           />
         </div>
@@ -33,8 +33,8 @@ const HeroSection = () => {
             <Image
               src={lightImg}
               alt=""
-              width={60}
-              height={60}
+              width={80}
+              height={80}
               className="inline-block"
             />
           </div>
