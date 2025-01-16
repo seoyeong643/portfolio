@@ -76,7 +76,7 @@ const AboutSection = () => {
               })}
             </div>
             <Image
-              src="/hero-image.png"
+              src="/Wave.gif"
               alt=""
               width={325}
               height={325}
