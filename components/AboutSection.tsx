@@ -39,9 +39,8 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              I am currently a master&#39;s student at Arizona State University 
-              for Computer Science, expecting to graduate in Dec 2025. 
-              I earned my bachelor&#39;s degree in CS in 2024.
+              I am currently a master&#39;s student in Computer Science 
+              at Arizona State University, having earned my bachelor&#39;s degree in CS in 2024.
             </p>
             <br />
             <p>
