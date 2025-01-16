@@ -3,6 +3,7 @@ import "../styles/globals.css"
 import Navbar from "@/components/Navbar"
 import Footer from "@/components/Footer"
 import { ThemeProvider } from "next-themes"
+import StarBackground from '@/components/StarBackground';
 
 export default function RootLayout({
   children,
@@ -17,6 +18,7 @@ export default function RootLayout({
       */}
       <head />
       <body className="dark:bg-stone-900">
+        <StarBackground />
         <ThemeProvider enableSystem={true} attribute="class">
           <Navbar />
           {children}
