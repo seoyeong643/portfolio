@@ -24,7 +24,7 @@ const projects = [
     name: "Drive Insight Product Website",
     description:
       "Product dashboard website for Drive Insight that effectively integrates vehicle compatibility features using a RESTful API, ensuring users have immediate access to essential information. - Tech: NextJS, React, TypeScript, Tailwind",
-    image: "/driveInsight.png",
+    image: "/DriveInsight.png",
     github: "https://github.com/seoyeong643/drive-insight-website",
     link: "https://github.com/seoyeong643/drive-insight-website",
   },
