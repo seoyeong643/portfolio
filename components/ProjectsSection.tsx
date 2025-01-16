@@ -21,9 +21,9 @@ const projects = [
     link: "https://github.com/seoyeong643/Grammy-Awards-Website-Audience-Analysis",
   },
   {
-    name: "Drive Insight Product Website",
+    name: "Drive Insight Website",
     description:
-      "Product dashboard website for Drive Insight that effectively integrates vehicle compatibility features using a RESTful API, ensuring users have immediate access to essential information. - Tech: NextJS, React, TypeScript, Tailwind",
+      "Product dashboard website that effectively integrates vehicle compatibility features using a RESTful API, ensuring users have immediate access to essential information. - Tech: NextJS, React, TypeScript, Tailwind",
     image: "/driveInsight.png",
     github: "https://github.com/seoyeong643/drive-insight-website",
     link: "https://github.com/seoyeong643/drive-insight-website",
