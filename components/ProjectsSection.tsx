@@ -82,6 +82,9 @@ const ProjectsSection = () => {
         })}
         
       </div>
+      <p className="mt-10 text-center text-2xl font-semibold text-neutral-600 dark:text-neutral-300">
+        To be updated. Thank you!
+      </p>
     </section>
   )
 }
