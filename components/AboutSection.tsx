@@ -1,5 +1,5 @@
-import React from "react"
-import Image from "next/image"
+import React from "react";
+import Image from "next/image";
 
 const skills = [
   { skill: "Java" },
@@ -15,7 +15,7 @@ const skills = [
   { skill: "Next.js" },
   { skill: "Git" },
   { skill: "GitHub" },
-]
+];
 
 const AboutSection = () => {
   return (
@@ -34,19 +34,21 @@ const AboutSection = () => {
             <p>
               Hi, my name is Seoyeong. I also go by Maia. I am a{" "}
               <span className="font-bold">{"passionate"}</span> and
-              <span className="font-bold">{" motivated"}</span> software engineer
-              living in Arizona! I thrive on challenges and always aim to push my limits.
+              <span className="font-bold">{" motivated"}</span> software
+              engineer living in Arizona! I thrive on challenges and always aim
+              to push my limits.
             </p>
             <br />
             <p>
-              I am currently a master&#39;s student in Computer Science 
-              at Arizona State University, having earned my bachelor&#39;s degree in CS in 2024.
+              I am currently a master&#39;s student in Computer Science at
+              Arizona State University, having earned my bachelor&#39;s degree
+              in CS in 2024.
             </p>
             <br />
             <p>
               I have a wide range of hobbies and passions that keep me busy.
-              From reading and dancing to figure skating, photography, and music,
-              I am always seeking new experiences and love to keep myself
+              From reading and dancing to figure skating, photography, and
+              music, I am always seeking new experiences and love to keep myself
               engaged and learning new things.
             </p>
             <br />
@@ -68,11 +70,10 @@ const AboutSection = () => {
                 return (
                   <p
                     key={idx}
-                    className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold"
-                  >
+                    className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold">
                     {item.skill}
                   </p>
-                )
+                );
               })}
             </div>
             <Image
@@ -86,7 +87,7 @@ const AboutSection = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default AboutSection
+export default AboutSection;

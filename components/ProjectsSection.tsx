@@ -1,8 +1,8 @@
-import React from "react"
-import Image from "next/image"
-import Link from "next/link"
-import SlideUp from "./SlideUp"
-import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import SlideUp from "./SlideUp";
+import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
   {
@@ -15,9 +15,11 @@ const projects = [
   },
   {
     name: "Grammy Awards: Website Audience Analysis",
-    description: "Analysis and visualization of performance metrics for the Grammy Awards website in relation to content and audience strategy. -Tech: Python, Pandas, Numpy, Plotly",
+    description:
+      "Analysis and visualization of performance metrics for the Grammy Awards website in relation to content and audience strategy. -Tech: Python, Pandas, Numpy, Plotly",
     image: "/grammy.png",
-    github: "https://github.com/seoyeong643/Grammy-Awards-Website-Audience-Analysis",
+    github:
+      "https://github.com/seoyeong643/Grammy-Awards-Website-Audience-Analysis",
     link: "https://github.com/seoyeong643/Grammy-Awards-Website-Audience-Analysis",
   },
   {
@@ -28,7 +30,7 @@ const projects = [
     github: "https://github.com/seoyeong643/drive-insight-website",
     link: "https://github.com/seoyeong643/drive-insight-website",
   },
-]
+];
 
 const ProjectsSection = () => {
   return (
@@ -78,15 +80,14 @@ const ProjectsSection = () => {
                 </div>
               </SlideUp>
             </div>
-          )
+          );
         })}
-        
       </div>
       <p className="mt-10 text-center text-2xl font-semibold text-neutral-600 dark:text-neutral-300">
         To be updated. Thank you!
       </p>
     </section>
-  )
-}
+  );
+};
 
-export default ProjectsSection
+export default ProjectsSection;

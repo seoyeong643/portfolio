@@ -1,5 +1,5 @@
-import React from 'react';
-import '../styles/StarBackground.scss';
+import React from "react";
+import "../styles/StarBackground.scss";
 
 const StarBackground = () => {
   return (

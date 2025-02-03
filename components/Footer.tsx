@@ -1,10 +1,10 @@
-import React from "react"
+import React from "react";
 import {
   AiOutlineGithub,
   AiOutlineTwitter,
   AiOutlineLinkedin,
   AiOutlineYoutube,
-} from "react-icons/ai"
+} from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -15,7 +15,10 @@ const Footer = () => {
           © 2025 Seoyeong Oh<a href="/" className="hover:underline"></a>
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
-          <a href="https://github.com/seoyeong643" rel="noreferrer" target="_blank">
+          <a
+            href="https://github.com/seoyeong643"
+            rel="noreferrer"
+            target="_blank">
             <AiOutlineGithub
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
@@ -25,8 +28,7 @@ const Footer = () => {
           <a
             href="https://www.linkedin.com/in/seoyeongoh/"
             rel="noreferrer"
-            target="_blank"
-          >
+            target="_blank">
             <AiOutlineLinkedin
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
@@ -35,7 +37,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
