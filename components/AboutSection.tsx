@@ -2,19 +2,19 @@ import React from "react";
 import Image from "next/image";
 
 const skills = [
-  { skill: "Java" },
-  { skill: "Python" },
-  { skill: "C/C++" },
-  { skill: "C#" },
-  { skill: "SQL" },
-  { skill: "HTML" },
-  { skill: "CSS" },
-  { skill: "JavaScript" },
-  { skill: "TypeScript" },
-  { skill: "React" },
-  { skill: "Next.js" },
-  { skill: "Git" },
-  { skill: "GitHub" },
+  "Java",
+  "Python",
+  "C/C++",
+  "C#",
+  "SQL",
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "TypeScript",
+  "React",
+  "Next.js",
+  "Git",
+  "GitHub",
 ];
 
 const AboutSection = () => {
@@ -71,7 +71,7 @@ const AboutSection = () => {
                   <p
                     key={idx}
                     className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold">
-                    {item.skill}
+                    {item}
                   </p>
                 );
               })}
