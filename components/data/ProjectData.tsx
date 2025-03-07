@@ -24,6 +24,14 @@ const projects = [
     github: "https://github.com/seoyeong643/drive-insight-website",
     link: "https://github.com/seoyeong643/drive-insight-website",
   },
+  {
+    name: "AI Evolution Data Visualization",
+    description:
+      "Developed an interactive data visualization project that explores key trends in AI advancement, industry influence, and global policy changes. - Tech: React, JavaScript, HTML, CSS, D3.js",
+    image: "/AIEvolution.png",
+    github: "https://github.com/seoyeong643/Rise-of-AI",
+    link: "https://github.com/seoyeong643/Rise-of-AI",
+  },
 ];
 
 export default projects;
