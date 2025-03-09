@@ -32,6 +32,14 @@ const projects = [
     github: "https://github.com/seoyeong643/Rise-of-AI",
     link: "https://github.com/seoyeong643/Rise-of-AI",
   },
+  {
+    name: "Portfolio Website",
+    description:
+      "Developed and deployed a personal portfolio website to showcase my skills and experience as a web developer. - Tech: React, Next.js, TypeScript, JavaScript, Tailwind CSS, SCSS, Vercel",
+    image: "/portfolio.png",
+    github: "https://github.com/seoyeong643/portfolio",
+    link: "https://github.com/seoyeong643/portfolio",
+  },
 ];
 
 export default projects;
