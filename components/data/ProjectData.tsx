@@ -51,7 +51,7 @@ const projects = [
   {
     name: "AuraMind Mental Health Chatbot",
     description:
-      "Designed and developed an AI-driven chatbot focused on providing mental health support through empathetic, real-time conversations. - Tech: Gemini Pro, GenAI(LLM), LangChain, RAG, Chroma, Python",
+      "Designed and developed an AI-driven chatbot focused on providing mental health support through empathetic, real-time conversations. - Tech: Gemini Pro, GenAI(LLM), LangChain, Chroma, Python",
     image: "/AuraMind.png",
     github: "https://kaggle.com/code/shreysharma07/auramind",
     link: "https://kaggle.com/code/shreysharma07/auramind",
