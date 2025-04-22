@@ -40,6 +40,14 @@ const projects = [
     github: "https://github.com/seoyeong643/portfolio",
     link: "https://github.com/seoyeong643/portfolio",
   },
+  {
+    name: "AI-powered Diabetes Prediction Web App - AI Hackathon",
+    description:
+      "Built and trained a classification model leveraging Scikit-learn and Pandas to analyze medical data and generate predictions - Tech: Python, Pandas, Scikit-learn, Flask, HTML, CSS",
+    image: "/StepByStepWellness.png",
+    github: "https://github.com/seoyeong643/StepByStepWellness",
+    link: "https://github.com/seoyeong643/StepByStepWellness",
+  },
 ];
 
 export default projects;
