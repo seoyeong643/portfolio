@@ -17,6 +17,14 @@ const projects = [
     link: "https://github.com/seoyeong643/Grammy-Awards-Website-Audience-Analysis",
   },
   {
+    name: "Bookstore",
+    description:
+      "A simple Spring Boot REST API for managing books. Includes endpoints to create, read, update, and delete books. -Tech: Java, Spring Boot, Relational Database",
+    image: "/bookstore1.png",
+    github: "https://github.com/seoyeong643/Bookstore/tree/main",
+    link: "https://github.com/seoyeong643/Bookstore/tree/main",
+  },
+  {
     name: "Drive Insight Website",
     description:
       "Product dashboard website that effectively integrates vehicle compatibility features using a RESTful API, ensuring users have immediate access to essential information. - Tech: NextJS, React, TypeScript, Tailwind",
