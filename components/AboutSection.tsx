@@ -6,15 +6,15 @@ const skills = [
   "Python",
   "C/C++",
   "C#",
+  "Pandas",
   "SQL",
-  "HTML",
-  "CSS",
+  "HTML/CSS",
   "JavaScript",
-  "TypeScript",
   "React",
   "Next.js",
   "Git",
-  "GitHub",
+  "OOP",
+  "CI/CD",
 ];
 
 const AboutSection = () => {
